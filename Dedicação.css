@@ -62,7 +62,10 @@ box-shadow: 0px 12px 4px 1px rgba(250, 223, 223, 0.863);
 }
 
 
-.capa-p{          
+.capa-p{ 
+    margin: 5px;
+    border-radius: 2px;
+    background-color: #f0dab2c7;         
     align-items: center;       
     justify-content: center;    
     gap: 20px;                  
@@ -84,11 +87,11 @@ box-shadow: 0px 12px 4px 1px rgba(250, 223, 223, 0.863);
 }
 
 .sub-capa{
-
-        color: #fff5e7;
-background-color: #f1bdad62;
+position: relative;
+color: #fff5e7;
 padding: 10px;
 border-radius: 5px;
+
     
 }
 
@@ -96,11 +99,10 @@ border-radius: 5px;
 margin: 10px;  
     border: 3px solid #8a4252;      
     border-radius: 4px;  
-    padding: 10px 20px;
     border-radius: 4px;
     font-family: cursive;
     color: #fff5e7;
-background-color: #f1bdad;
+background-color: #680909;
 
 
 }
