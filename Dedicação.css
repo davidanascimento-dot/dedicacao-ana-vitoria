@@ -18,23 +18,29 @@ body{
     background: radial-gradient(circle at 50% 30%, #fbf6e9 0%, #ede0c8 100%);
 }
 
-.capa{
-    display: flex;              
+
+
+.capa{   
+    display: flex;           
     align-items: center;
     justify-content: center;
     padding: 40px;
     gap: 40px;
+
+    
 }
 
 .capa-h3{
     display: inline-block;
-    position: relative;
-     background-color: #fdf9ef;      
-    border: 1px solid #c8b89a;      
+    position: relative;    
+    border: 3px solid #8a4252;      
     border-radius: 4px;  
     padding: 10px 20px;
     border-radius: 4px;
-    
+    font-family: cursive;
+    color: #fff5e7;
+background: linear-gradient(90deg,#fa85a2,#e26969);
+box-shadow: 0px 12px 4px 1px rgba(243, 180, 180, 0.863);
 }
 
 
@@ -43,6 +49,12 @@ body{
     justify-content: center;    
     gap: 20px;                  
     padding: 40px;
+}
+
+.capa-span{
+ font-family: cursive;
+ font-size: large;
+ 
 }
 
 .capa-h2{
@@ -58,10 +70,28 @@ body{
 
 height: 500px;
 width:  auto;
-border: 2px solid rgba(165, 141, 204, 0.867);
-border-radius: 20px;
+border-radius: 5px;
+box-shadow: 3px  5px 4px 5px rgba(228, 90, 90, 0.575);
 
 }
 
 
+.Btn{
+      display: inline-block;
+    position: relative;
+     background-color: #fdf9ef;      
+    border: 1px solid #c8b89a;      
+    border-radius: 4px;  
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+
+.Btn-h3{
+    text-decoration: none;
+}
+
+.Btn-h3{
+
+}
 
