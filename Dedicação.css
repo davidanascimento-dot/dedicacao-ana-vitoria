@@ -9,7 +9,14 @@ body{
 
 }
 
+body{
+    background-color: #f5efe0;
+   
+}
 
+body{
+    background: radial-gradient(circle at 50% 30%, #fbf6e9 0%, #ede0c8 100%);
+}
 
 .capa{
     display: flex;              
@@ -22,11 +29,11 @@ body{
 .capa-h3{
     display: inline-block;
     position: relative;
-    background-color: rgba(217, 185, 250, 0.096);
-    border: 2px solid #c9bfc6;
-    border-radius:  10px;
-    padding: 10px;
-     font-family: 'Georgia', 'serif', serif;
+     background-color: #fdf9ef;      
+    border: 1px solid #c8b89a;      
+    border-radius: 4px;  
+    padding: 10px 20px;
+    border-radius: 4px;
     
 }
 
@@ -38,6 +45,13 @@ body{
     padding: 40px;
 }
 
+.capa-h2{
+    padding-bottom: 8px;
+}
+.capa-p, p{
+    color: #3f3428;  
+    line-height: 1.7; 
+}
 
 
 .ana{
