@@ -146,4 +146,38 @@ margin-top: 20px;
 .fim-banner{
     width: 10%;
     height: 50%;
+    filter: blur(2px);
 }
+
+
+@keyframes subir {
+from {transform: perspective(0deg);}
+to {transform: perspective(360deg);}
+}
+
+@keyframes subir {
+ 0%   { transform: translateY(0); }
+  25%  { transform: translateX(20%); }
+  50% { transform: translateX(60%); }
+    75%  { transform: translateX(80%); }
+  100% { transform: translateX(100%); }
+  
+}
+
+.fundo-coracoes {
+  animation: subir 20s linear infinite;
+  
+
+}
+
+
+.fundo-coracoes span{
+    width: 100px;
+ transition-timing-function: ease;   
+}
+
+.corações{
+    width: 100%;
+}
+
+
