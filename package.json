@@ -1,0 +1,26 @@
+{
+  "name": "dedicacao-ana-vitoria",
+  "version": "1.0.0",
+  "description": "Estou fazendo essa dedicação a você sim você Ana que sempre acreditou em mim obrigado",
+  "main": "Dedicação.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidanascimento-dot/dedicacao-ana-vitoria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidanascimento-dot/dedicacao-ana-vitoria/issues"
+  },
+  "homepage": "https://github.com/davidanascimento-dot/dedicacao-ana-vitoria#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
