@@ -149,6 +149,19 @@ margin-top: 20px;
     filter: blur(2px);
 }
 
+.capa-prox{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 @keyframes subir {
 from {transform: perspective(0deg);}
