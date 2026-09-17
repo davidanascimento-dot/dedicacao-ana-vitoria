@@ -1,4 +1,25 @@
+
+
 {
-    "capitulo"
-    
+  "livro": {
+    "titulo": "Dedico a você, Ana",
+    "autor": "David",
+    "descricao": "teste",
+    "capitulos": [
+      {
+        "id": 1,
+        "numero": 1,
+        "titulo": "Antes de tudo",
+        "subtitulo": "Algumas coisas que eu nunca disse",
+        "texto": "Aqui começa o primeiro capítulo do meu livro..."
+      },
+      {
+        "id": 2,
+        "numero": 2,
+        "titulo": "O que eu nunca disse",
+        "subtitulo": "",
+        "texto": "..."
+      }
+    ]
+  }
 }
