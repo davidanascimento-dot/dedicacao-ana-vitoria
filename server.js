@@ -18,7 +18,7 @@ app.get('/capitulos', (req, res) => {
 
 
 function listarCapitulos() {
-  const texto = fs.readFileSync('js/capitulo.json', 'utf-8')
+  const texto = fs.readFileSync('frontend/js/capitulo.json', 'utf-8')
   return JSON.parse(texto)
 }
 
@@ -27,7 +27,7 @@ app.post('/capitulos', (req, res) => {
   const capitulos = listarCapitulos()
   capitulos.push(novoCapitulo)
 
-  fs.writeFileSync('js/capitulo.json', JSON.stringify(capitulos, null, 2))
+  fs.writeFileSync('frontend/js/capitulo.json', JSON.stringify(capitulos, null, 2))
 
   res.json({ ok: true, mensagem: 'Capítulo salvo!' })
 })

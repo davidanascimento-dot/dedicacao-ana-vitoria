@@ -5,7 +5,7 @@ const capitulos = await resposta.json()
 
 const container = document.querySelector('#lista-capitulos')
 const html = capitulos.map(cap =>
-`<a href="capitulo.html?numero=${cap.numero}">
+`<a href="capitulo.html?numero=${cap.numero}" class="link-capitulo">
    <h2>Capítulo ${cap.numero}</h2>
    <p>${cap.titulo}</p>
  </a>`

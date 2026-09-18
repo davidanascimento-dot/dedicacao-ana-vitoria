@@ -1,0 +1,64 @@
+
+.livro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.livro h1 {
+  
+    position: relative;         
+    padding: 10px 20px;
+    font-family: cursive;
+    color: #8a4252;
+}
+
+.introducao {
+      align-self: flex-start;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+
+.lista-capitulos {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+.link-capitulo {
+     align-self: flex-start;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: ;
+    padding: 8px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+
+
+.link-capitulo h2 {
+    margin: 0 0 6px 0;
+    font-size: 1.3rem;
+    color: inherit;
+}
+
+.link-capitulo p {
+    margin: 0;
+    font-size: 1rem;
+    opacity: 0.85;
+    color: inherit;
+}
