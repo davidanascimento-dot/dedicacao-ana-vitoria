@@ -1,25 +1,27 @@
-const express = require('express')
-const cors = require('cors')
-const fs = require('fs')
+const express  = require('express');
+const  cors = require('cors')
+const fs = require ('fs')
+const app =  express()
 
-const app = express()
 const PORT = 3000
 
-app.use(cors())
-app.use(express.json())
 
-// Função auxiliar: lê o JSON do disco e devolve como array
+
+app.use(express.json())
+app.use(cors())
+
+
+
+app.get('/capitulos', (req, res) => {
+  res.json(listarCapitulos())
+})
+
+
 function listarCapitulos() {
   const texto = fs.readFileSync('js/capitulo.json', 'utf-8')
   return JSON.parse(texto)
 }
 
-// GET — devolve a lista atual
-app.get('/capitulos', (req, res) => {
-  res.json(listarCapitulos())
-})
-
-// POST — salva um capítulo novo
 app.post('/capitulos', (req, res) => {
   const novoCapitulo = req.body
   const capitulos = listarCapitulos()
