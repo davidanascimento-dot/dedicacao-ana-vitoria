@@ -47,16 +47,16 @@ body {
 
 
 .capa-h {
-    display: inline-block;
     align-self: flex-start;
-    position: relative;
-     color: #680909;
+    text-decoration: none;
+    color: #680909;
     font-family: cursive;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: 16px 16px;
     border: 2px solid #680909;
     border-radius: 6px;
-    margin: 0;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 2px 1px rgb(218, 94, 94);
 }
 
 
@@ -85,13 +85,15 @@ body {
 
 
 .botao-voltar{
-    align-self: flex-start;
+     align-self: flex-start;
     text-decoration: none;
     color: #680909;
     font-family: cursive;
     font-weight: bold;
-    padding: 8px 16px;
+    padding: 16px 16px;
     border: 2px solid #680909;
     border-radius: 6px;
     transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 2px 3px 0px rgb(218, 94, 94);
+    margin-left: 10px;
 }
