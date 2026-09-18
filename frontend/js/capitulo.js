@@ -36,6 +36,7 @@ btnProximo.addEventListener('click',()=>{
     window.location.href = 'capitulo.html?numero=' + (numero + 1)
   }else{
     btnProximo.disable = true;
+    
     btnProximo.textContent = ' fim '
   }
 
