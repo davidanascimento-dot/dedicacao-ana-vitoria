@@ -36,29 +36,30 @@ body{
 }
 
 .capa-h3{
-    display: inline-block;
-    position: relative;    
-    border: 3px solid #8a4252;      
-    border-radius: 4px;  
-    padding: 10px 20px;
-    border-radius: 4px;
+        align-self:auto;
+    text-decoration: none;
+    color: #680909;
     font-family: cursive;
-    color: #fff5e7;
-background: linear-gradient(90deg,#fa85a2,#e26969);
-box-shadow: 0px 12px 4px 1px rgba(243, 180, 180, 0.863);
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
 }
 
 .capa-h{
   
-    position: relative;    
-    border: 3px solid #8a4252;      
-    border-radius: 4px;  
-    padding: 10px 20px;
-    border-radius: 4px;
+    align-self: flex-start;
+    text-decoration: none;
+    color: #680909;
     font-family: cursive;
-    color: #fff5e7;
-background-color: #f1bdad;
-box-shadow: 0px 12px 4px 1px rgba(250, 223, 223, 0.863);
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
 }
 
 
@@ -96,13 +97,17 @@ border-radius: 5px;
 }
 
 .capa-sub{
-margin: 10px;  
-    border: 3px solid #8a4252;      
-    border-radius: 4px;  
-    border-radius: 4px;
+        align-self:auto;
+    text-decoration: none;
+    color: #680909;
     font-family: cursive;
-    color: #fff5e7;
-background-color: #680909;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 1px 1px 2px 2px rgb(218, 94, 94);
+    margin: 20px;
 
 
 }
