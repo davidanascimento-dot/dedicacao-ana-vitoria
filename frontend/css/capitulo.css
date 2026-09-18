@@ -50,13 +50,12 @@ body {
     display: inline-block;
     align-self: flex-start;
     position: relative;
-    border: 3px solid #8a4252;
-    border-radius: 4px;
-    padding: 10px 20px;
+     color: #680909;
     font-family: cursive;
-    color: #fff5e7;
-    background: linear-gradient(90deg, #fa85a2, #e26969);
-    box-shadow: 0px 8px 4px 1px rgba(243, 180, 180, 0.6);
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
     margin: 0;
 }
 
