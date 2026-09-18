@@ -27,9 +27,6 @@ btnAnterior.addEventListener('click',()=>{
 })
 
 
-
-
-
 const btnProximo = document.querySelector('#btn-proximo')
 
 btnProximo.addEventListener('click',()=>{
