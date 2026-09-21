@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
     
     <header>
 
-        <input id="campo-numero" type="number" />
+
+           <div class="texto-lateral">
+          <h3 class="capa-h3">Modo Adiministradora </h3>
+          <p class="capa-p">edição de capitulos</p>
+        </div>
+          
+
+ <div class="capa">
+
+    
+  
+         <div class="admin-id">
+ <h2 class="admin-h2"> coloque o numero o capitulo </h2>
+     <input id="campo-numero" type="number" />
+ </div>
+
+<div class="admin-texto">
+<h2 class="admin-h2">titulo do capitulo</h2>
 <input id="campo-titulo" type="text" />
-<textarea id="campo-conteudo"></textarea>
+</div>
+
+ 
+
+<div class="admin-texto">
+    <h2 class="admin-h2">escreva o book</h2>
+    <textarea id="campo-conteudo"></textarea>
+</div>
+
 <button id="btn-adicionar">Adicionar</button>
+
+<div class="admin-saida">
+<h2 class="admin-h2">json teste</h2>
 <textarea id="saida-json" readonly></textarea>
+</div>
+
+ </div>
+
 
 
     </header>

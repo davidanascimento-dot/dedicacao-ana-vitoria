@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ min-height: 100vh;
+
+}
+
+body{
+    background-color: #f5efe0;
+   
+}
+
+body{
+    background: radial-gradient(circle at 50% 30%, #fbf6e9 0%, #ede0c8 100%);
+}
+
+
+
+.capa{   
+         
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+ 
+
+    
+}
+
+.texto-lateral{
+    border-radius: 20px;
+}
+
+.capa-p{
+        align-self:auto;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
+}
+
+.capa-h3{
+  
+    align-self: flex-start;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
+}
+
+
+.admin-id{
+    align-self:auto;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
+}
+
+.admin-texto{
+    align-self:auto;
+    text-decoration: none;
+    color: #680909;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #680909;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 2px 5px 0px 1px rgb(218, 94, 94);
+}
+
+
+
+
+.admin-saida{
+
+    
+}
+

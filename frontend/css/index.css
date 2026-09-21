@@ -64,13 +64,16 @@ body{
 
 
 .capa-p{ 
-    margin: 5px;
+         margin: 5px;
     border-radius: 2px;
-    background-color: #f0dab2c7;         
+    background-color: #ffe0a5c7;         
     align-items: center;       
     justify-content: center;    
     gap: 20px;                  
     padding: 40px;
+    box-shadow: 2px 3px 0px 2px rgba(228, 90, 90, 0.575);
+    border-radius: 5px;
+    border: 2px solid rgb(218, 94, 94);
 }
 
 .capa-span{
@@ -112,6 +115,43 @@ border-radius: 5px;
 
 }
 
+.admin{
+            align-self:auto;
+    text-decoration: none;
+    color: #420e7c;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 16px 16px;
+    border: 2px solid #450968;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 1px 1px 2px 2px rgb(218, 94, 94);
+    margin: 20px;
+}
+
+.book-admin{
+      
+    border-radius: 2px;
+
+     position: relative;
+    background-color: #ebafcbe1;         
+    box-shadow: 2px 3px 0px 2px rgba(228, 90, 90, 0.575);
+    border-radius: 5px;
+    border: 2px solid rgb(218, 94, 94); 
+}
+
+.admin-p{
+      margin: 5px;
+    border-radius: 2px;
+    background-color: #ffe0a5c7;         
+    align-items: center;       
+    justify-content: center;    
+    gap: 20px;                  
+    padding: 40px;
+    box-shadow: 2px 3px 0px 2px rgba(228, 90, 90, 0.575);
+    border-radius: 5px;
+    border: 2px solid rgb(218, 94, 94);
+}
 
 .ana{
 
@@ -157,6 +197,7 @@ margin-top: 20px;
 .capa-prox{
     text-decoration: none;
 }
+
 
 
 
