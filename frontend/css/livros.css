@@ -36,6 +36,18 @@ body{
     color: #8a4252;
 }
 
+.Voltar{
+     border-radius: 20px;     
+    align-items: center;       
+    justify-content: center;                  
+    padding: 10px;
+    box-shadow: 2px 3px 0px 2px rgba(228, 90, 90, 0.575);
+    border-radius: 2px 1cap 1px;
+    border: 2px solid rgb(218, 94, 94);
+    font-family: cursive;
+    text-decoration: none;
+}
+
 .introducao {
  
     align-self: flex-start;
